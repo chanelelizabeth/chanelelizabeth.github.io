@@ -1,8 +1,9 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
 body {
 	background-color: #A5DAE8;
 	font-family: 'Raleway', sans-serif;
 	text-align: center;
-	margin: 0;
 }
 h1 {
 	color: #19198c;
@@ -12,11 +13,11 @@ h1 {
 	font-weight: bold;
 	padding-top: 20px;
 	padding-bottom: 10px;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0 0;
 }
 p {
 	color: black;
+	margin: 1em auto;
 }
 #slogan {
 	background-color: #ffffff;
@@ -28,8 +29,7 @@ img {
   width: 25%;
   height: auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 1em;
   padding:1px;
   border:1px solid #021a40;
   background-color:white;
@@ -41,4 +41,8 @@ img {
 ul {
     list-style-type: none;
     padding-left:0;
+}
+.inline {
+	display: inline;
+	margin: 1em;
 }

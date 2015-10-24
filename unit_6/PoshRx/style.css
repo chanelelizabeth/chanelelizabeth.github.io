@@ -1,4 +1,4 @@
-* { margin:0; padding:0; box-sizing:border-box; }
+* { margin:0; padding:0; box-sizing: border-box; }
 
 .clearfix:after {
 	content: ".";
@@ -45,13 +45,13 @@ section#featured-product {
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-section#just-added {
+/*section#just-added {
 	background-image: url('images/featureimage.jpg');
 	width: 100%;
 	height: 350px;
 	background-size: cover;
 	background-repeat: no-repeat;
-}
+}*/
 section#shop-all-jewelry {
 	background-image: url('images/necklace5.jpg');
 	width: 100%;
@@ -63,6 +63,12 @@ section.columns {
 	float: left;
 	width: 48%;
 }
+section.columns:first-child {
+	margin-right: 2%;
+}
+#logo {
+	margin: 0 auto;
+}
 .product-cat {
 	width: 1400px;
 	padding: 0;
@@ -72,6 +78,7 @@ section.columns {
 	width: 21%;
 	margin: .5%;
 	float: left;
+	display: inline-block;
 }
 .product-previews img {
 	margin: 0;
@@ -92,11 +99,17 @@ ul {
     list-style-type: none;
     padding-left:0;
 }
+#social-nav {
+	position: relative;
+	top: 20px;
+	display: inline-block;
+	float: right;
+}
 nav {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
 	text-transform: uppercase;
-	margin-top: 2em;
+	margin-top: 1em;
 	margin-bottom: 1em;
 	border-top:1px solid;
 	border-bottom: 1px solid;
@@ -111,6 +124,10 @@ nav a {
     font-weight: 700;
     text-align: center;
     border-left: 1px solid;
+}
+nav img {
+	position: relative;
+	top: 5px;
 }
 footer {
 	text-align: center; 

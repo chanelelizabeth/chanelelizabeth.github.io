@@ -60,7 +60,7 @@ section#featured-product {
 #featured-product p {
 	text-align: left;
 	font-weight: bold;
-	line-height: 1em;
+	padding-bottom: 0;
 }
 section#just-added {
 	width: 100%;
@@ -73,7 +73,7 @@ section#shop-all-jewelry {
 #just-added h1 {
 	position: relative;
 	height: 400;
-	top: 1.5em;
+	top: 2em;
 	left: 1em;
 }
 #just-added img {
@@ -83,7 +83,7 @@ section#shop-all-jewelry {
 #shop-all-jewelry h1 {
 	position: relative;
 	height: 400;
-	top: 1.5em;
+	top: 2em;
 	left: 1em;
 }
 #shop-all-jewelry img {

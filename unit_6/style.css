@@ -30,11 +30,12 @@ p {
 	padding: .5em 0;
 	font-family: 'Open Sans', sans-serif;
 }
-section {
-	padding: 1em;
-}
 .body-wrapper {
 	max-width: 875px;
+	margin: 0 auto;
+}
+.body-wrapper-shopall {
+	max-width: 1250px;
 	margin: 0 auto;
 }
 section.columns {
@@ -43,53 +44,41 @@ section.columns {
 	width: 49%;
 	box-shadow: 0 0 5px black;
 	float: left;
-	margin-top: 1em;
+	margin-top: 2em;
+	padding: 1em;
 }
 section.columns:first-child {
 	margin-right: 2%;
 }
-section#featured-product {
-	background-image: url('images/earrings2.JPG');
+section.homepage-images {
 	width: 100%;
-	height: 350px;
-	background-attachment:fixed;
-	background-size: cover;
-	background-repeat: no-repeat;
-	box-shadow: 0 0 2.5px black;
+	padding: 0;
 }
-#featured-product p {
+section.homepage-images p {
 	text-align: left;
 	font-weight: bold;
 	padding-bottom: 0;
-}
-section#just-added {
-	width: 100%;
-	padding: 0;
-}
-section#shop-all-jewelry {
-	width: 100%;
-	padding: 0;
-}
-#just-added h1 {
 	position: relative;
-	height: 400;
+	top: 3em;
+    left: 2em;
+}
+section.homepage-images h1 {
+	position: relative;
+	display: inline;
 	top: 2em;
 	left: 1em;
 }
-#just-added img {
-	width: 100%;
-	box-shadow: 0 0 5px black;
-}
-#shop-all-jewelry h1 {
+#featured-product-detail {
 	position: relative;
-	height: 400;
-	top: 2em;
+	top: 4em;
 	left: 1em;
 }
-#shop-all-jewelry img {
+section.homepage-images img {
 	width: 100%;
-	max-height: 400px;
 	box-shadow: 0 0 5px black;
+	height: auto;
+	display: block;
+	vertical-align: top;
 }
 #logo {
 	margin: 0 auto;
@@ -102,6 +91,9 @@ section#shop-all-jewelry {
 	margin: 1em auto 2em auto;
 	padding: 0;
 	display: block;
+}
+.product-cat:first-child {
+	margin-top: 4em;
 }
 .product-cat h1 {
 	margin-bottom: .5em;
@@ -142,7 +134,7 @@ nav {
 	text-align: center;
 	text-transform: uppercase;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom: -3em;
 	line-height: 3em;
 }
 nav a {

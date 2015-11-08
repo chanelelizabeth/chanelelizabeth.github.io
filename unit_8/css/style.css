@@ -72,15 +72,11 @@ h2 {
 	padding: 1%;
 }
 .socialize {
-	width: 75%;
 	list-style-type: none;
-	margin: 2em 45% 1em 45%;
-	display: inline;
-	float: left;
+	margin: 2em 45% 1em 46%;
 }
 .socialize a {
-	padding: 2em .25em;
-	text-align: center;
+	padding: 0 .25em;
 }
 .clearfix:after {
 	content: ".";
@@ -91,8 +87,33 @@ h2 {
 }
 footer {
 	color: #222;
+	clear: both;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 800px) {
+	header h1 {
+		font-size: 2.5em;
+	}
+	#feature-image {
+		max-width: 90%; 
+	}
+	.main-columns {
+	width: 90%;
+	margin: auto;
+	}
+	.content {
+	padding: 2%;
+	width: 100%;
+	float: none;
+	margin: .5em 0;
+	}
+	/*.socialize {
+	margin: 2em 43% 1em 45%;
+	}*/
+	footer {
+		margin: 0 auto;
+	}
+}
+@media only screen and (max-width: 600px) {
 	header {
 		margin: .5em 0;
 	}
@@ -112,13 +133,25 @@ footer {
 		max-width: 100%; 
 	}
 	.main-columns {
-	width: 100%;
-	margin: auto;
+		width: 100%;
+		margin: auto;
 	}
 	.content {
-	padding: 2%;
-	width: 100%;
-	float: none;
-	margin: .5em 0;
+		padding: 2%;
+		width: 100%;
+		float: none;
+		margin: .5em 0;
+	}
+	.content h2{
+		font-size: 1em;
+	}
+	.content p{
+		font-size: .8em;
+	}
+	/*.socialize {
+		margin: 2em 35% 1em 35%;
+	}*/
+	footer {
+		margin: 0 auto;
 	}
 }

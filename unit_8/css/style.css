@@ -2,7 +2,7 @@
 
 body {
 	background-color: white;
-	color: black;
+	color: #222;
 	font-family: "Playfair Display", serif;
 	font-size: 18px;
 	padding: 1em;
@@ -14,6 +14,10 @@ header {
 header h1 {
 	font-family: 'Cinzel', serif;
 	font-size: 3em;
+}
+h2 {
+	padding-bottom: .25em;
+	font-size: 1.35em;
 }
 a {
 	text-decoration: none;
@@ -46,24 +50,18 @@ nav a {
 	margin: 0 auto;
 }
 .content {
-	display: inline-block;
-	text-align: center;
-	padding: 2%;
-	margin: 1em 2%;
-	width: 46%;
+	text-align: left;
+	padding: 2em;
+	margin: 1em 1%;
+	width: 48%;
 	background: #fff;
 	border: 1px solid #ddd;
 	vertical-align: top;
 	box-shadow: 0 0 5px #ddd;
 	float: left;
 }
-h2 {
-	padding-bottom: .25em;
-	font-size: 1.35em;
-}
 #feature-image {
-	max-width: 76%;
-	margin: 0 auto;
+	margin: 0 1%;
 }
 #feature-image img {
 	width: 100%;
@@ -74,10 +72,15 @@ h2 {
 }
 .socialize {
 	list-style-type: none;
-	margin: 2em 45% 1em 46%;
+	margin: 2em 0 1em 0;
+	text-align:center;
 }
 .socialize a {
 	padding: 0 .25em;
+}
+.wrapper {
+	max-width:60em;
+	margin:auto;
 }
 .clearfix:after {
 	content: ".";

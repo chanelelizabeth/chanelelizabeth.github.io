@@ -9,7 +9,7 @@ body {
 }
 header {
 	text-align:center;
-	margin: 2em 0;
+	margin: 2em 0 0;
 }
 header h1 {
 	font-family: 'Cinzel', serif;
@@ -27,15 +27,12 @@ a {
 p {
 	padding-bottom: 1em;
 }
-nav a:hover {
-	background-color: #5A8B8B;
-	color: white;
-}
+
 nav, footer {
 	font-family: 'Open Sans Condensed', sans-serif;
 	text-align:center;
 	text-transform: uppercase;
-	margin: 2.5em;
+	margin: 2.5em auto;
 }
 nav a {
 	text-decoration: none;
@@ -44,10 +41,11 @@ nav a {
 	padding: .3em 2em;
 	margin: 0 .5em;
 	border: double black 6px;
+	display: inline-block;
 }
-.main-columns {
-	width: 80%;
-	margin: 0 auto;
+nav a:hover {
+	background-color: #5A8B8B;
+	color: white;
 }
 .content {
 	text-align: left;
@@ -93,58 +91,48 @@ footer {
 	color: #222;
 	clear: both;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 908px) {
 	header h1 {
 		font-size: 2.5em;
 	}
-	#feature-image {
-		max-width: 90%; 
+	nav {
+		margin: 2em auto;
 	}
-	.main-columns {
-	width: 90%;
-	margin: auto;
+}
+@media only screen and (max-width: 763px) {
+	header h1 {
+		font-size: 2.25em;
 	}
 	.content {
-	padding: 2%;
-	width: 100%;
+	width: 98%;
 	float: none;
-	margin: .5em 0;
+	padding: 1em;
 	}
-	/*.socialize {
-	margin: 2em 43% 1em 45%;
-	}*/
-	footer {
-		margin: 0 auto;
+}
+@media only screen and (max-width: 692px) {
+	header {
+		margin-top: 1em;
+	}
+	header h1 {
+		font-size: 2em;
 	}
 }
 @media only screen and (max-width: 600px) {
 	header {
-		margin: .5em 0;
+		margin: .5em auto;
 	}
 	header h1 {
 		font-size: 1.75em;
 	}
 	nav, img {
-		margin: .1em;
+		margin: 0 auto;
 	}
 	nav a {
 		display: block;
-		float: none;
 		margin: .25em .5em;
-		font-size: 1em;
 	}
 	#feature-image {
 		max-width: 100%; 
-	}
-	.main-columns {
-		width: 100%;
-		margin: auto;
-	}
-	.content {
-		padding: 2%;
-		width: 100%;
-		float: none;
-		margin: .5em 0;
 	}
 	.content h2{
 		font-size: 1em;
@@ -152,9 +140,6 @@ footer {
 	.content p{
 		font-size: .8em;
 	}
-	/*.socialize {
-		margin: 2em 35% 1em 35%;
-	}*/
 	footer {
 		margin: 0 auto;
 	}

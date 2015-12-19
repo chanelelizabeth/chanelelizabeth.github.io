@@ -80,19 +80,27 @@ nav a:hover {
 	max-width:60em;
 	margin:auto;
 }
-img.gallery {
-	width: 32%;
+.gallery {
+	float: left;
+	margin-right: .5em;
+	margin-top: 1em;
+	display: inline-block;
+	width: 32.5%;
+	min-width: 320px;
+}
+.gallery img {
+	width: 100%;
 	background: #fff;
 	border: 1px solid #ddd;
 	vertical-align: top;
 	box-shadow: 0 0 5px #ddd;
-	margin-right: .5em;
-	margin-bottom: .5em;
 }
-.gallery-box:first-child {
-	padding-left: .5em;
+.gallery-box {
+	padding: 0;
+	margin: 1em auto;
+	width: 100%;
+	display: block;
 }
-
 .clearfix:after {
 	content: ".";
 	visibility: hidden;

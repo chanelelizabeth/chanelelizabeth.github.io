@@ -80,6 +80,19 @@ nav a:hover {
 	max-width:60em;
 	margin:auto;
 }
+img.gallery {
+	width: 32%;
+	background: #fff;
+	border: 1px solid #ddd;
+	vertical-align: top;
+	box-shadow: 0 0 5px #ddd;
+	margin-right: .5em;
+	margin-bottom: .5em;
+}
+.gallery-box:first-child {
+	padding-left: .5em;
+}
+
 .clearfix:after {
 	content: ".";
 	visibility: hidden;
